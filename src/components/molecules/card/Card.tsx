@@ -15,13 +15,52 @@ author:string,
 timeRead:string,
 numberRead:string,
 toAdd:boolean,
-
+status?:"added"|"toAdd"|"null",
 }
 
 const ImageCard=(props:CardProp)=>{
+    const belowElement = ()=>{if (props.status==="toAdd") {
+               return (<LiberaryButton onClick={(e)=>console.log(e)}></LiberaryButton>)
+           } else if(props.status==="added"){
+             return (<><div style={{
+                 display:"flex",
+                 margin:"3px 0px 5px 27%",
+                 cursor:"pointer"
+             }}
+             onClick={()=>console.log("clicked")}>
+                 <Typography variant='body1' sx={{
+                     color:"#0365F2",
+                     fontSize:"20px"
+                 }}>Read again</Typography>
+                 </div>
+                 <div style={{
+                width:"100%",
+                height:"10px"
+            }}><div style={{
+                width:"100%",
+                height:"100%",
+                backgroundColor:'#E1ECFC'
+            }}></div></div>
+                </> )
+           }else{return (<>
+            <MoreHorizIcon
+            sx={{
+                display:"block",
+                marginLeft:"246px",
+            }}
+            ></MoreHorizIcon>
+            <div style={{
+                width:"100%",
+                height:"10px"
+            }}><div style={{
+                width:"30%",
+                height:"100%",
+                backgroundColor:'#E1ECFC'
+            }}></div></div>
+            </>) }}
 
     return(
-        <div className="card" onClick={(e)=>console.log(e)}>
+        <div className="card">
             <Card sx={[{width:284}
         ,{'&:hover': {
             backgroundColor:'#F1F6F4',
@@ -70,25 +109,7 @@ const ImageCard=(props:CardProp)=>{
                 {props.numberRead}
             </Typography>
             </a>
-           {props.toAdd
-           ?<LiberaryButton onClick={(e)=>console.log(e)}></LiberaryButton>
-            :<MoreHorizIcon
-            sx={{
-                display:"block",
-                marginLeft:"246px"
-            }}
-            ></MoreHorizIcon>
-            }
-            {props.toAdd
-            ?undefined
-        :<div style={{
-            width:"100%",
-            height:"10px"
-        }}><div style={{
-            width:"30%",
-            height:"100%",
-            backgroundColor:'#E1ECFC'
-        }}></div></div>}  
+            {belowElement()}
             </Card>
             
         </div>
@@ -102,7 +123,8 @@ alt:"bring human",
 author:"Martin gupta",
 timeRead:"13-min read",
 numberRead:"1.9k reads",
-toAdd:false
+toAdd:false,
+status:"null"
 
 }
 export default ImageCard;

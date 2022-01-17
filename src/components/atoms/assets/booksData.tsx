@@ -18,6 +18,7 @@ let cardDetails=[{
     "author":"Erica Keswin",
     "timeRead":"13-min read",
     "numberReads":"1.9k reads",
+    "finished":false,
   },{
     "id":2,
     "imgSrc":image2,
@@ -25,6 +26,7 @@ let cardDetails=[{
     "author":"Steve Glaveski",
     "timeRead":"13-min read",
     "numberReads":"1.9k reads",
+    "finished":false,
   },
   {
     "id":3,
@@ -33,6 +35,7 @@ let cardDetails=[{
     "author":"Trey Gowdy",
     "timeRead":"13-min read",
     "numberReads":"1.9k reads",
+    "finished":false,
   },
   {
     "id":4,
@@ -41,6 +44,7 @@ let cardDetails=[{
     "author":"Amanda Little",
     "timeRead":"13-min read",
     "numberReads":"1.9k reads",
+    "finished":false,
   },
   {
     "id":5,
@@ -49,6 +53,7 @@ let cardDetails=[{
     "author":"Ryan Holiday, Stephen Hansel",
     "timeRead":"13-min read",
     "numberReads":"1.9k reads",
+    "finished":false,
   },
   {
     "id":6,
@@ -57,6 +62,7 @@ let cardDetails=[{
     "author":"Debbie King",
     "timeRead":"13-min read",
     "numberReads":"1.9k reads",
+    "finished":false,
   },
   {
     "id":7,
@@ -65,6 +71,7 @@ let cardDetails=[{
     "author":"Noreena Hertz",
     "timeRead":"13-min read",
     "numberReads":"1.9k reads",
+    "finished":true,
   },
   {
     "id":8,
@@ -73,6 +80,7 @@ let cardDetails=[{
     "author":"Giada De Laurentiis",
     "timeRead":"13-min read",
     "numberReads":"1.9k reads",
+    "finished":true,
   },
   {
     "id":9,
@@ -81,6 +89,7 @@ let cardDetails=[{
     "author":"James Moore",
     "timeRead":"13-min read",
     "numberReads":"1.9k reads",
+    "finished":true,
   },];
 
 
