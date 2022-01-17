@@ -1,0 +1,13 @@
+.bottomNav table{
+    width: 100%;
+}
+.bottomNav>table>tr>td>div{
+    display: flex;
+    align-items: center;
+}
+.topNav>h6{
+    margin:30px 94px 20px 0px;
+}
+.barHover :hover{
+    color: #0365F2;
+}
