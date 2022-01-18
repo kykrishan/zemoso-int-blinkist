@@ -1,7 +1,7 @@
 import Tab from "./tab";
 
 export default {
-    title:"atom/Tab",
+    title:"molecules/Tab",
     component:Tab
 }
 const Template= (args) => <Tab {...args} />;

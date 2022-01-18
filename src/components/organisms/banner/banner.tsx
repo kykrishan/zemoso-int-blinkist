@@ -15,8 +15,13 @@ const Banner = () => {
         display:'flex',
         flexDirection:'column',
         margin: '45px 0px 45px 45px',
+        
+
     }}>
-    <Typography variant="h1">Explore Books on <br></br> entrepreneurship</Typography>
+    <Typography variant="h1"sx={{
+        fontSize:'36px',
+        fontWeight:'700'
+    }}>Explore Books on <br></br> entrepreneurship</Typography>
 <Typography variant="subtitle2" sx={{
 marginTop:"15px"
 }}>

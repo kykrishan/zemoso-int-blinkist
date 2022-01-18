@@ -4,11 +4,14 @@ import BookTab from "../../organisms/booksTab/bookTab";
 import ExtendedNav from "../../organisms/extendedNav/extendedNav";
 import Footer from "../../organisms/footer/footer";
 import Header from "../../organisms/header/header";
-import Tab from '../../atoms/tabs/tab';
+import Tab from '../../molecules/tabs/tab';
+import FinishedTab from "../../organisms/finishedTab/finished";
 
 
 const EntryPage = () => {
    const [finished,setFinished]=useState(false);
+//    const [tab,setTab]=useState(true);
+  
     return(
         <div>
     <Header avatar={false} explore={false} openSearch={()=>console.log("hello")} ></Header>
@@ -19,10 +22,15 @@ const EntryPage = () => {
     sx={{
         marginBottom:"60px"
         }}>My Liberay</Typography>
-    <Tab title='Continue reading' isActive={true}></Tab>
-    <Tab title="Finished" isActive={false} onClick={()=>setFinished(!finished)}></Tab>
+    <Tab title='Continue reading' isActive={!finished} onClick={()=>setFinished(false)}></Tab>
+    <Tab title="Finished" isActive={finished} onClick={()=>setFinished(true)}></Tab>
     </Box>
-      <BookTab></BookTab>
+    
+    {finished
+    ?<FinishedTab sts="added"></FinishedTab>
+    :<BookTab status="null"></BookTab>
+    }
+      
       <Footer></Footer>
       
         </div>

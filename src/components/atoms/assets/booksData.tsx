@@ -71,7 +71,7 @@ let cardDetails=[{
     "author":"Noreena Hertz",
     "timeRead":"13-min read",
     "numberReads":"1.9k reads",
-    "finished":true,
+    "finished":false,
   },
   {
     "id":8,
@@ -80,7 +80,7 @@ let cardDetails=[{
     "author":"Giada De Laurentiis",
     "timeRead":"13-min read",
     "numberReads":"1.9k reads",
-    "finished":true,
+    "finished":false,
   },
   {
     "id":9,
@@ -89,8 +89,14 @@ let cardDetails=[{
     "author":"James Moore",
     "timeRead":"13-min read",
     "numberReads":"1.9k reads",
-    "finished":true,
+    "finished":false,
   },];
+function set(id:number,value:boolean){
+cardDetails.forEach((el)=>{
+  if(el.id==id){
+    el.finished=value;
+  }
+})
+}
 
-
-  export default cardDetails;
+  export {cardDetails ,set};

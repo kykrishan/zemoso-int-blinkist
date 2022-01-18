@@ -3,8 +3,9 @@ import { useNavigate, useParams } from "react-router-dom";
 import ConnectBtn from "../../molecules/button/connectButton";
 import Footer from "../../organisms/footer/footer";
 import Header from "../../organisms/header/header";
-import books from "../../atoms/assets/booksData";
-import Tab from "../../atoms/tabs/tab";
+  import {cardDetails as books} from "../../atoms/assets/booksData";
+import Tab from "../../molecules/tabs/tab";
+import {cardDetails,set} from "../../atoms/assets/booksData";
 
 const BookDetails = () => {
     type bookType={
@@ -55,8 +56,8 @@ const BookDetails = () => {
             }} variant="outlined">Read More</Button>
             <Button sx={{borderRadius:"0px",
             }}onClick={()=>{
-                localStorage.setObj('Item', urlinputID);
-                navigate("/entrepreneur")
+                set(urlId,true);
+                navigate("/")
             }
                 } variant="contained">Finished Reading</Button>
             {/* <ConnectBtn variant="contained" title="Finished Reading" ></ConnectBtn> */}

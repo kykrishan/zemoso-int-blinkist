@@ -1,7 +1,7 @@
 import ConnectBtn from "./connectButton";
 
 export default {
-    title: "molecules/ConnectButton",
+    title: "molecules/button/ConnectButton",
     component: ConnectBtn
 }
 const Template = (args) => <ConnectBtn {...args} />;

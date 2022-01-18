@@ -27,7 +27,7 @@ const Entrepreneurship = () => {
                 <Typography variant="h3">Trending Blinks</Typography>
                 </Box>
                 
-                <BookTab status="added"></BookTab>
+                <BookTab status="toAdd"></BookTab>
             
             <Footer></Footer>
 

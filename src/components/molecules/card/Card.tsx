@@ -1,11 +1,15 @@
 import { Typography } from '@mui/material';
 import Card from '@mui/material/Card';
+import { useNavigate, useParams } from "react-router-dom";
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import { ThemeProvider } from '@emotion/react';
 import ctmtheme from '../../../theming/theme';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import LiberaryButton from '../button/liberaryButton';
+import {cardDetails,set} from "../../atoms/assets/booksData";
+
+
 type CardProp={
     id:number,
     imgScr?:string,
@@ -19,6 +23,8 @@ status?:"added"|"toAdd"|"null",
 }
 
 const ImageCard=(props:CardProp)=>{
+    const navigat=useNavigate();
+    
     const belowElement = ()=>{if (props.status==="toAdd") {
                return (<LiberaryButton onClick={(e)=>console.log(e)}></LiberaryButton>)
            } else if(props.status==="added"){
@@ -27,7 +33,11 @@ const ImageCard=(props:CardProp)=>{
                  margin:"3px 0px 5px 27%",
                  cursor:"pointer"
              }}
-             onClick={()=>console.log("clicked")}>
+             onClick={()=>{
+                 console.log("hekkkkkkk"+props.id);
+                set(props.id,false);
+                navigat("./");
+            }}>
                  <Typography variant='body1' sx={{
                      color:"#0365F2",
                      fontSize:"20px"
@@ -42,7 +52,7 @@ const ImageCard=(props:CardProp)=>{
                 backgroundColor:'#E1ECFC'
             }}></div></div>
                 </> )
-           }else{return (<>
+           }else {return (<>
             <MoreHorizIcon
             sx={{
                 display:"block",
