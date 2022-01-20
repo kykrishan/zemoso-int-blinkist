@@ -7,12 +7,21 @@ import image6 from "./book6.png";
 import image7 from "./book7.png";
 import image8 from "./book8.png";
 import image9 from "./book9.png";
+import image0 from "./book0.png";
 
 
 
 
 let cardDetails=[{
-  "id":1,
+  "id":0,
+    "imgSrc":image0,
+    "title":"Beyond Entrepreneurship ",
+    "author":"Jim Collins & Bill Lazier",
+    "timeRead":"13-min read",
+    "numberReads":"1.9k reads",
+    "finished":false,
+  },{
+      "id":1,
     "imgSrc":image1,
     "title":"Bring your human to work",
     "author":"Erica Keswin",

@@ -20,6 +20,7 @@ timeRead:string,
 numberRead:string,
 toAdd:boolean,
 status?:"added"|"toAdd"|"null",
+finishset:()=>void,
 }
 
 const ImageCard=(props:CardProp)=>{
@@ -36,7 +37,7 @@ const ImageCard=(props:CardProp)=>{
              onClick={()=>{
                  console.log("hekkkkkkk"+props.id);
                 set(props.id,false);
-                navigat("./");
+               {props.finishset()}
             }}>
                  <Typography variant='body1' sx={{
                      color:"#0365F2",

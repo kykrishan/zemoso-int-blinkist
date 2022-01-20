@@ -6,6 +6,15 @@ import ImageCard from "../../molecules/card/Card"
 type FinishedTabProps={
     toAdd:boolean,
     sts?:"added"|"toAdd"|"null",
+    finishset:()=>void,
+    book?:[{
+        id:number,
+        imgSrc:string,
+        author:string,
+        timeRead:string,
+        numberReads:string,
+        finished:boolean,
+      }]
   }
 
 const FinishedTab = (props:FinishedTabProps) => {
@@ -23,7 +32,7 @@ const FinishedTab = (props:FinishedTabProps) => {
          
         return(
           <Grid key={element.id} item xs={4}>
-            <ImageCard status={props.sts} id={element.id} imgScr={element.imgSrc} title={element.title} author={element.author}></ImageCard>
+            <ImageCard finishset={props.finishset} status={props.sts} id={element.id} imgScr={element.imgSrc} title={element.title} author={element.author}></ImageCard>
           </Grid>
         )
         

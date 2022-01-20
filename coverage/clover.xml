@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1642664504479" clover="3.2.0">
+  <project timestamp="1642664504479" name="All files">
+    <metrics statements="37" coveredstatements="15" conditionals="10" coveredconditionals="0" methods="16" coveredmethods="1" elements="63" coveredelements="16" complexity="0" loc="37" ncloc="37" packages="10" files="11" classes="11"/>
+    <package name="atoms.assets">
+      <metrics statements="4" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="booksData.tsx" path="/home/krishy/Documents/webD/reactStart/blinkist/src/components/atoms/assets/booksData.tsx">
+        <metrics statements="4" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="105" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="106" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.avatar">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Avatar.tsx" path="/home/krishy/Documents/webD/reactStart/blinkist/src/components/atoms/avatar/Avatar.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.logo">
+      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="logo.tsx" path="/home/krishy/Documents/webD/reactStart/blinkist/src/components/atoms/logo/logo.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.button">
+      <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="connectButton.tsx" path="/home/krishy/Documents/webD/reactStart/blinkist/src/components/molecules/button/connectButton.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="liberaryButton.tsx" path="/home/krishy/Documents/webD/reactStart/blinkist/src/components/molecules/button/liberaryButton.tsx">
+        <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.card">
+      <metrics statements="12" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="Card.tsx" path="/home/krishy/Documents/webD/reactStart/blinkist/src/components/molecules/card/Card.tsx">
+        <metrics statements="12" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="130" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.search_bar">
+      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="SearchBar.tsx" path="/home/krishy/Documents/webD/reactStart/blinkist/src/components/molecules/search_bar/SearchBar.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.tabs">
+      <metrics statements="3" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="tab.tsx" path="/home/krishy/Documents/webD/reactStart/blinkist/src/components/molecules/tabs/tab.tsx">
+        <metrics statements="3" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="organisms.banner">
+      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="banner.tsx" path="/home/krishy/Documents/webD/reactStart/blinkist/src/components/organisms/banner/banner.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="organisms.footer">
+      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="footer.tsx" path="/home/krishy/Documents/webD/reactStart/blinkist/src/components/organisms/footer/footer.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="organisms.navSelection">
+      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="NavSelection.tsx" path="/home/krishy/Documents/webD/reactStart/blinkist/src/components/organisms/navSelection/NavSelection.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

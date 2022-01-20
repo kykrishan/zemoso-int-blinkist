@@ -6,6 +6,10 @@ import Footer from "../../organisms/footer/footer";
 import Header from "../../organisms/header/header";
 
 const Entrepreneurship = () => {
+    const handleFinish=()=>{
+       
+    }
+    
     return(
         <div>
             <Header avatar={true}></Header>
@@ -27,7 +31,7 @@ const Entrepreneurship = () => {
                 <Typography variant="h3">Trending Blinks</Typography>
                 </Box>
                 
-                <BookTab status="toAdd"></BookTab>
+                <BookTab finishset={handleFinish} status="toAdd"></BookTab>
             
             <Footer></Footer>
 

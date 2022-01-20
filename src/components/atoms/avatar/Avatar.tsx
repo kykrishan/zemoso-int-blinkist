@@ -1,4 +1,5 @@
 import LatterAvatar from '@mui/material/Avatar';
+import React from "react";
 type AvatarProps={
     word:string,
 }
