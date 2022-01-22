@@ -1,6 +1,8 @@
-import { render ,screen} from "@testing-library/react"
-
+import { render ,screen} from "@testing-library/react";
+import React from "react";
+import "@testing-library/jest-dom";
 import SearchBar from "./SearchBar";
+
 
 it("Is searchbar is visible",async()=>{
     render(<SearchBar></SearchBar>);

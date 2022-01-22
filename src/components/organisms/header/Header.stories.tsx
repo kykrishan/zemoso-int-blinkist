@@ -1,10 +1,11 @@
 import Header from "./header";
+import { ComponentMeta, ComponentStory } from "@storybook/react";
 
 export default {
     title:"organisms/Header",
     component:Header
-}
-const Template = (args) => <Header {...args} />;
+}as ComponentMeta<typeof Header>
+const Template:ComponentStory<typeof Header> = (args) => <Header {...args} />;
 export const AvatarHeader = Template.bind({});
 AvatarHeader.args={
     avatar:true,

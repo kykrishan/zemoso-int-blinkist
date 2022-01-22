@@ -1,6 +1,6 @@
 import { Button, Typography } from "@mui/material";
 import { useNavigate, useParams } from "react-router-dom";
-import ConnectBtn from "../../molecules/button/connectButton";
+import ConnectBtn from "../../molecules/button/ConnectBtn ";
 import Footer from "../../organisms/footer/footer";
 import Header from "../../organisms/header/header";
   import {cardDetails as books} from "../../atoms/assets/booksData";

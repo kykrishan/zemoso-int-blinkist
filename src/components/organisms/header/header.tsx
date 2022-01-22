@@ -9,6 +9,7 @@ import Logo from '../../atoms/logo/logo';
 import { useState } from 'react';
 import ExtendedNav from '../extendedNav/extendedNav';
 import SearchBar from '../../molecules/search_bar/SearchBar';
+import React from "react";
 
 
 

@@ -4,8 +4,5 @@ export default {
     title:"organisms/Footer",
     component:Footer
 }
-const Template=( args) => <Footer {...args} />;
+const Template=() => <Footer  />;
 export const footer = Template.bind({});
-footer.args={
-
-}

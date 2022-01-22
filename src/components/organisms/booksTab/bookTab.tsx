@@ -1,5 +1,5 @@
 import { Grid, Typography } from "@mui/material";
-import ImageCard from "../../molecules/card/Card";
+import ImageCard from "../../molecules/card/ImageCard";
 import {cardDetails,set} from "../../atoms/assets/booksData";
 
 type BookTabProps={

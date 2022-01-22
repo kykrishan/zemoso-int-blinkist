@@ -1,13 +1,15 @@
-
-import ImageCard from "./Card";
+import ImageCard from "./ImageCard";
 import { ThemeProvider } from '@emotion/react';
-import ctmtheme from '../../theming/theme';
+import { ComponentMeta, ComponentStory } from "@storybook/react";
+import ctmtheme from "../../../theming/theme";
+
+
 
 export default {
     title:"molecules/Card",
     component:ImageCard
-}
-const Template = (args) =>
+}as ComponentMeta<typeof ImageCard>
+const Template:ComponentStory<typeof ImageCard> = (args) =>
 <ThemeProvider theme={ctmtheme}>
      <ImageCard {...args} /></ThemeProvider>;
      

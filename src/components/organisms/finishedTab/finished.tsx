@@ -1,6 +1,6 @@
 import { Grid } from "@mui/material"
 import {cardDetails,set} from "../../atoms/assets/booksData";
-import ImageCard from "../../molecules/card/Card"
+import ImageCard from "../../molecules/card/ImageCard"
 
 
 type FinishedTabProps={

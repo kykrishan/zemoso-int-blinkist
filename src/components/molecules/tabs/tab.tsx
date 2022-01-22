@@ -1,4 +1,5 @@
 import { Typography ,Box} from "@mui/material";
+import React from "react";
 type TabProps={
     title:string,
     isActive:boolean,

@@ -1,20 +1,20 @@
 import { Typography } from '@mui/material';
 import Card from '@mui/material/Card';
-import { useNavigate, useParams } from "react-router-dom";
+
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
-import { ThemeProvider } from '@emotion/react';
-import ctmtheme from '../../../theming/theme';
+
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import LiberaryButton from '../button/liberaryButton';
-import {cardDetails,set} from "../../atoms/assets/booksData";
+import {set} from "../../atoms/assets/booksData";
+import React from "react";
 
 
 type CardProp={
     id:number,
     imgScr?:string,
 title:string,
-alt:string,
+alt?:string,
 author:string,
 timeRead:string,
 numberRead:string,
@@ -24,7 +24,7 @@ finishset:()=>void,
 }
 
 const ImageCard=(props:CardProp)=>{
-    const navigat=useNavigate();
+    
     
     const belowElement = ()=>{if (props.status==="toAdd") {
                return (<LiberaryButton onClick={(e)=>console.log(e)}></LiberaryButton>)
@@ -135,7 +135,8 @@ author:"Martin gupta",
 timeRead:"13-min read",
 numberRead:"1.9k reads",
 toAdd:false,
-status:"null"
+status:"null",
+finishset:()=>console.log("clicked")
 
 }
 export default ImageCard;

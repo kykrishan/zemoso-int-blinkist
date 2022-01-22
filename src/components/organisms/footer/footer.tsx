@@ -1,6 +1,8 @@
 import { Box, Typography } from "@mui/material";
 import Logo from "../../atoms/logo/logo";
 import NavSelection from "../navSelection/NavSelection";
+import React from "react";
+
 const Footer=()=>{
     return(
 <Box

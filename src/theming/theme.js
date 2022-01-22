@@ -9,6 +9,19 @@ palette:{
     }
 },
 typography:{
+    fontFamily: [
+        'Cera Pro',
+        '-apple-system',
+        'BlinkMacSystemFont',
+        '"Segoe UI"',
+        'Roboto',
+        '"Helvetica Neue"',
+        'Arial',
+        'sans-serif',
+        '"Apple Color Emoji"',
+        '"Segoe UI Emoji"',
+        '"Segoe UI Symbol"',
+      ].join(','),
     subtitle1:{
         fontFamily:"Cera-Pro",
         fontWeight:700,
