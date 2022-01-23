@@ -1,9 +1,6 @@
 import { Typography } from "@mui/material";
 import React from "react";
-// type NavSectionProps={
-//     heading:string,
-//     listItem:string
-// }
+
 const NavSelection=()=>{
     return(
         <div style={{
@@ -21,19 +18,19 @@ const NavSelection=()=>{
             <Typography variant="body2"
             sx={{
                 marginBottom:'16px'
-            }}><a>Book List</a></Typography>
+            }}><a href="/">Book List</a></Typography>
             <Typography variant="body2"
             sx={{
                 marginBottom:'16px'
-            }}><a>What is Nonfiction?</a></Typography>
+            }}><a href="/">What is Nonfiction?</a></Typography>
             <Typography variant="body2"
             sx={{
                 marginBottom:'16px'
-            }}><a>What to read next?</a></Typography>
+            }}><a href="/">What to read next?</a></Typography>
             <Typography variant="body2"
             sx={{
                 marginBottom:'16px'
-            }}><a>Benefits of reading</a></Typography>   
+            }}><a href="/">Benefits of reading</a></Typography>   
             </div>
             <div
              style={{
@@ -48,20 +45,20 @@ const NavSelection=()=>{
             <Typography variant="body2"
             sx={{
                 marginBottom:'16px'
-            }}><a>Pricing</a></Typography>
+            }}><a href="/">Pricing</a></Typography>
             <Typography variant="body2"
             sx={{
                 marginBottom:'16px'
-            }}><a>Blinkist buisness</a></Typography>
+            }}><a href="/">Blinkist buisness</a></Typography>
             <Typography variant="body2"
             sx={{
                 marginBottom:'16px'
-            }}><a>Gift Cards</a></Typography>
+            }}><a href="/">Gift Cards</a></Typography>
             <Typography variant="body2"
             sx={{
                 marginBottom:'16px'
-            }}><a>Blinkst magaine</a></Typography>
-            <Typography variant="body2"><a>Contacts & help</a></Typography>
+            }}><a href="/">Blinkst magaine</a></Typography>
+            <Typography variant="body2"><a href="/">Contacts & help</a></Typography>
                 </div>  
                 <div
                  style={{
@@ -73,19 +70,19 @@ const NavSelection=()=>{
             <Typography variant="body2"
             sx={{
                 marginBottom:'16px'
-            }}><a>About</a></Typography>
+            }}><a href="/">About</a></Typography>
             <Typography variant="body2"
             sx={{
                 marginBottom:'16px'
-            }}><a>Careers</a></Typography>
+            }}><a href="/">Careers</a></Typography>
             <Typography variant="body2"
             sx={{
                 marginBottom:'16px'
-            }}><a>Partners</a></Typography>
+            }}><a href="/">Partners</a></Typography>
             <Typography variant="body2"
             sx={{
                 marginBottom:'16px'
-            }}><a>Code of Conduct</a></Typography>
+            }}><a href="/">Code of Conduct</a></Typography>
                     </div> 
                       
         </div>

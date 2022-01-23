@@ -8,22 +8,11 @@ import Tab from '../../molecules/tabs/tab';
 
 import FinishedTab from "../../organisms/finishedTab/finished";
 
-// type bookType=[{
-//         id:number,
-//         imgSrc:string,
-//         author:string,
-//         timeRead:string,
-//         numberReads:string,
-//         finished:boolean,
-//       }]
-
 
 const EntryPage = () => {
     
    const [finished,setFinished]=useState(false);
-// //    const [tab,setTab]=useState(true);
-//   const [book,setBook]=useState(cardDetails);
-//   console.log(book);
+
 const handleFinish=()=>{
     setFinished(false);
 }

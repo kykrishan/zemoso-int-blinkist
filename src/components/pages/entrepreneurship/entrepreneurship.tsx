@@ -7,7 +7,7 @@ import Header from "../../organisms/header/header";
 
 const Entrepreneurship = () => {
     const handleFinish=()=>{
-       
+       return undefined;
     }
     
     return(
