@@ -1,4 +1,4 @@
-import { Grid, Typography } from "@mui/material";
+import { Grid} from "@mui/material";
 import ImageCard from "../../molecules/card/ImageCard";
 import {cardDetails,set} from "../../atoms/assets/booksData";
 
@@ -20,7 +20,7 @@ const BookTab=(props:BookTabProps)=>{
  
   set(9,false);
   cardDetails.forEach((e)=>{
-    if(e.id==9){
+    if(e.id===9){
       console.log("helllll"+e.finished);
     }
   })
@@ -34,12 +34,14 @@ const BookTab=(props:BookTabProps)=>{
       <Grid container spacing={2}>
         
       {cardDetails.map((element)=>{
-        if(element.finished==false){
+        if(element.finished===false){
         return(
           <Grid key={element.id} item xs={4}>
             <ImageCard finishset={props.finishset} status={props.status} id={element.id} imgScr={element.imgSrc} title={element.title} author={element.author}></ImageCard>
           </Grid>
         )
+        }else{
+          return undefined;
         }
       })} 
         </Grid>

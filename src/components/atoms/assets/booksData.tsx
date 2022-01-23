@@ -102,7 +102,7 @@ let cardDetails=[{
   },];
 function set(id:number,value:boolean){
 cardDetails.forEach((el)=>{
-  if(el.id==id){
+  if(el.id===id){
     el.finished=value;
   }
 })

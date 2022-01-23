@@ -1,21 +1,21 @@
 import { Box, Typography} from "@mui/material";
 import { useState } from "react";
 import BookTab from "../../organisms/booksTab/bookTab";
-import ExtendedNav from "../../organisms/extendedNav/extendedNav";
+
 import Footer from "../../organisms/footer/footer";
 import Header from "../../organisms/header/header";
 import Tab from '../../molecules/tabs/tab';
-import {cardDetails,set} from "../../atoms/assets/booksData";
+
 import FinishedTab from "../../organisms/finishedTab/finished";
 
-type bookType=[{
-        id:number,
-        imgSrc:string,
-        author:string,
-        timeRead:string,
-        numberReads:string,
-        finished:boolean,
-      }]
+// type bookType=[{
+//         id:number,
+//         imgSrc:string,
+//         author:string,
+//         timeRead:string,
+//         numberReads:string,
+//         finished:boolean,
+//       }]
 
 
 const EntryPage = () => {

@@ -3,7 +3,6 @@ import { Typography } from '@mui/material';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import LatterAvatar from '@mui/material/Avatar';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
-import Link from '@mui/material/Link';
 import './style.css';
 import Logo from '../../atoms/logo/logo';
 import { useState } from 'react';

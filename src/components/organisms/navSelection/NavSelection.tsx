@@ -1,9 +1,9 @@
 import { Typography } from "@mui/material";
 import React from "react";
-type NavSectionProps={
-    heading:string,
-    listItem:string
-}
+// type NavSectionProps={
+//     heading:string,
+//     listItem:string
+// }
 const NavSelection=()=>{
     return(
         <div style={{

@@ -1,11 +1,11 @@
 import { Button, Typography } from "@mui/material";
 import { useNavigate, useParams } from "react-router-dom";
-import ConnectBtn from "../../molecules/button/ConnectBtn ";
+
 import Footer from "../../organisms/footer/footer";
 import Header from "../../organisms/header/header";
-  import {cardDetails as books} from "../../atoms/assets/booksData";
+import {cardDetails as books} from "../../atoms/assets/booksData";
 import Tab from "../../molecules/tabs/tab";
-import {cardDetails,set} from "../../atoms/assets/booksData";
+import {set} from "../../atoms/assets/booksData";
 
 const BookDetails = () => {
     type bookType={
@@ -44,7 +44,7 @@ const BookDetails = () => {
                     marginRight:'125px',
                 }}>
                 {books.forEach((book)=>{
-             if(book.id==urlId)filtered=book;
+             if(book.id===urlId)filtered=book;
             })}
             {/* {   console.log(filtered)}             */}
             <Typography variant="h1">{filtered.title}</Typography>
@@ -63,7 +63,7 @@ const BookDetails = () => {
             {/* <ConnectBtn variant="contained" title="Finished Reading" ></ConnectBtn> */}
                 </div> 
                 <div>
-            <img src={filtered.imgSrc}></img>
+            <img src={filtered.imgSrc} alt={filtered.title}></img>
             </div>
             </div>
             <div style={{

@@ -1,9 +1,7 @@
 import { Typography } from '@mui/material';
 import Card from '@mui/material/Card';
-
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
-
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import LiberaryButton from '../button/liberaryButton';
 import {set} from "../../atoms/assets/booksData";
