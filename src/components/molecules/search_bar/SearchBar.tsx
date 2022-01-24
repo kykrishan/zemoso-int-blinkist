@@ -3,10 +3,6 @@ import { InputAdornment, TextField } from '@mui/material';
 import React from "react";
 
 
-// type SearchBarProps={
-//   style:object;
-// }
-
  const SearchBar=()=>{
 return(
     <TextField

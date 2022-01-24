@@ -1,5 +1,5 @@
-import { Grid } from "@mui/material";
-import { Typography } from "@mui/material";
+import { Grid, Typography  }  from "@mui/material";
+
 let items=[
     {
         "icon":<svg width="16" height="23" viewBox="0 0 16 23" fill="none" xmlns="http://www.w3.org/2000/svg">

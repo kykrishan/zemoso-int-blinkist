@@ -6,7 +6,7 @@ import Footer from "../../organisms/footer/footer";
 import Header from "../../organisms/header/header";
 import Tab from '../../molecules/tabs/tab';
 
-import FinishedTab from "../../organisms/finishedTab/finished";
+import FinishedTab from "../../organisms/finishedTab/FinishedTab";
 
 
 const EntryPage = () => {

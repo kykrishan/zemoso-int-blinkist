@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
-*{
-    font-family: Inter;
-}
+
 .avatar{
     width:44px;
    height:44px;
@@ -19,7 +17,7 @@
    right: 36.36%;
    top: 20.45%;
    bottom: 20.45%;
-   font-family: Inter;
+
    font-style: normal;
    font-weight: 500;
    font-size: 18px;

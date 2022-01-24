@@ -1,4 +1,4 @@
-import ConnectBtn from "./ConnectBtn ";
+import ConnectBtn from "./ConnectBtn";
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
 export default {

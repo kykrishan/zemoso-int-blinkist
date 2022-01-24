@@ -3,9 +3,8 @@ import { useNavigate, useParams } from "react-router-dom";
 
 import Footer from "../../organisms/footer/footer";
 import Header from "../../organisms/header/header";
-import {cardDetails as books} from "../../atoms/assets/booksData";
+import {cardDetails as books,set} from "../../atoms/assets/booksData";
 import Tab from "../../molecules/tabs/tab";
-import {set} from "../../atoms/assets/booksData";
 
 const BookDetails = () => {
     type bookType={
@@ -16,15 +15,14 @@ const BookDetails = () => {
     }
     const navigate=useNavigate();
     let {bookId}=useParams();
-    let urlinputID:string=bookId!;
+    let urlinputID:string;
+    urlinputID=bookId!;
     let filtered:bookType={title:"helo",id:1,author:" ",imgSrc:""};
-    // Object={};
+  
     let urlId:number;
     urlId=parseInt(urlinputID);
     console.log();
-    // Function FinishedManager(){
-
-    // }
+ 
     return(
         <div>
             
@@ -32,10 +30,8 @@ const BookDetails = () => {
             <div style={{
                 margin:"16px 15% 16px 18%"
             }}>
-                <Typography variant="body2"> Get the key idea from</Typography>
-            {/* {books.map((book)=>book.id==urlId
-            ?filtered=book
-            :undefined})} */}
+                <Typography variant="body2">Get the key idea from</Typography>
+           
             <div style={{
                 display:'flex',
                 justifyContent:'space-between',
@@ -46,7 +42,7 @@ const BookDetails = () => {
                 {books.forEach((book)=>{
              if(book.id===urlId)filtered=book;
             })}
-            {/* {   console.log(filtered)}             */}
+           
             <Typography variant="h1">{filtered.title}</Typography>
             <Typography variant="subtitle2">Turning Your Business into an Enduring Great Company</Typography>
             <Typography variant="body1">{filtered.author}</Typography>
