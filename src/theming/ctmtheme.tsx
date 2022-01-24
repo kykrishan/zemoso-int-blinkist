@@ -28,8 +28,6 @@ typography:{
         fontSize:18,
         textAlign:'left'
 
-    },betasubtitle1:{
-        fontSize:'24px'
     },
     subtitle2:{
 display:"inline-block",
@@ -50,7 +48,6 @@ textAlign:"left",
     caption:{
         color:'#6D787E',
         fontSize:14,
-        textAlign:'top',
         position:"relative",
         bottom: "3px"
     }

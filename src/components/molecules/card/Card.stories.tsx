@@ -1,7 +1,7 @@
 import ImageCard from "./ImageCard";
 import { ThemeProvider } from '@emotion/react';
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import ctmtheme from "../../../theming/theme";
+import ctmtheme from "../../../theming/ctmtheme";
 
 
 

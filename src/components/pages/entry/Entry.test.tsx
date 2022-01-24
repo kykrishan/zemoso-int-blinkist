@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 
 import React from "react";
 import "@testing-library/jest-dom";
-import EntryPage from "./entrt";
+import EntryPage from "./EntryPage";
 
 
 it("Is card is visible",async()=>{
