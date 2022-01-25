@@ -5,10 +5,10 @@ import LatterAvatar from '@mui/material/Avatar';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import './style.css';
 import Logo from '../../atoms/logo/logo';
-import { useState } from 'react';
+import React, { useState } from "react";
 import ExtendedNav from '../extendedNav/ExtendedNav';
 import SearchBar from '../../molecules/search_bar/SearchBar';
-import React from "react";
+
 
 
 
@@ -17,8 +17,7 @@ type HeaderConst={
     avatarLatter:string,
     search:boolean,
     explore:boolean,
-    // openExplore:()=>void,
-    // openSearch:Function,
+
     openSearch:()=>void,
     
 }

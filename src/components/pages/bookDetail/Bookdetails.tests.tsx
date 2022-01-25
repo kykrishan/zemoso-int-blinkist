@@ -5,8 +5,8 @@ import "@testing-library/jest-dom";
 import BookDetails from "./bookDetails";
 
 
-it("Is card is visible",async()=>{
+it("Is bookdetails is visible",async()=>{
     render(<BookDetails></BookDetails>);
-    const card=screen.getByAltText("Get the key idea from guptil");
+    const card=screen.getByAltText(/Get the key idea from guptil/i);
     expect(card).toBeInTheDocument;
 });
