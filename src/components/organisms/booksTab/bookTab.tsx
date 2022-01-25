@@ -1,11 +1,12 @@
 import { Grid} from "@mui/material";
 import ImageCard from "../../molecules/card/ImageCard";
 import {cardDetails,set} from "../../atoms/assets/booksData";
+import React from "react";
 
 type BookTabProps={
   toAdd:boolean,
   status?:"added"|"toAdd"|"null",
-  finishset:()=>void,
+  finishset?:()=>void,
   book?:[{
     id:number,
     imgSrc:string,
@@ -17,13 +18,9 @@ type BookTabProps={
 }
   
 const BookTab=(props:BookTabProps)=>{
- 
+
   set(9,false);
-  cardDetails.forEach((e)=>{
-    if(e.id===9){
-      console.log("helllll"+e.finished);
-    }
-  })
+  
     return(
       
 <div className='cardGrid'

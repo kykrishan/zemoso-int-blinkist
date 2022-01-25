@@ -5,8 +5,8 @@ import "@testing-library/jest-dom";
 import EntryPage from "./EntryPage";
 
 
-it("Is card is visible",async()=>{
+it("Is entrypage is visible",async()=>{
     render(<EntryPage></EntryPage>);
-    const card=screen.getByAltText("My Liberay");
+    const card=screen.findByAltText("My Liberay");
     expect(card).toBeInTheDocument;
 });

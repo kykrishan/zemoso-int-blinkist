@@ -9,8 +9,3 @@ it("Is tab is visible",async()=>{
     const logo=screen.getByText("hello");
     expect(logo).toBeInTheDocument;
 });
-it("Is tab is visible",async()=>{
-    render(<Tab title="12"></Tab>);
-    const logo=screen.getByText("12");
-    expect(logo).toBeInTheDocument;
-});

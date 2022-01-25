@@ -33,7 +33,6 @@ const ImageCard=(props:CardProp)=>{
                  cursor:"pointer"
              }}
              onClick={()=>{
-                 console.log("hekkkkkkk"+props.id);
                 set(props.id,false);
                {props.finishset()}
             }}>
@@ -79,7 +78,7 @@ const ImageCard=(props:CardProp)=>{
               color:"white"
           }
         }]}>
-            {console.log(props.id)}
+            
             <a href={'bookDetails/'+props.id}
         style={{
             color:"black",

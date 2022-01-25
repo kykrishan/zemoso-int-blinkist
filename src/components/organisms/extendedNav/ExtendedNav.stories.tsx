@@ -1,4 +1,4 @@
-import ExtendedNav from "./extendedNav";
+import ExtendedNav from "./ExtendedNav";
 
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 

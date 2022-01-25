@@ -1,9 +1,9 @@
 import { Box, Typography} from "@mui/material";
 import { useState } from "react";
 import BookTab from "../../organisms/booksTab/bookTab";
-
-import Footer from "../../organisms/footer/footer";
-import Header from "../../organisms/header/header";
+import React from "react";
+import Footer from "../../organisms/footer/Footer";
+import Header from "../../organisms/header/Header";
 import Tab from '../../molecules/tabs/tab';
 
 import FinishedTab from "../../organisms/finishedTab/FinishedTab";

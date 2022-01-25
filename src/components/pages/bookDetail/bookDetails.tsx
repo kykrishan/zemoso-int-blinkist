@@ -1,8 +1,8 @@
 import { Button, Typography } from "@mui/material";
 import { useNavigate, useParams } from "react-router-dom";
 
-import Footer from "../../organisms/footer/footer";
-import Header from "../../organisms/header/header";
+import Footer from "../../organisms/footer/Footer";
+import Header from "../../organisms/header/Header";
 import {cardDetails as books,set} from "../../atoms/assets/booksData";
 import Tab from "../../molecules/tabs/tab";
 

@@ -4,7 +4,7 @@ import { ThemeProvider } from '@emotion/react';
 import ctmtheme from './theming/ctmtheme';
 
 import EntryPage from './components/pages/entry/EntryPage';
-import Entrepreneurship from './components/pages/entrepreneurship/entrepreneurship';
+import Entrepreneurship from './components/pages/entrepreneurship/Entrepreneurship';
 import {BrowserRouter as  Router, Routes,Route } from 'react-router-dom';
 import BookDetails from './components/pages/bookDetail/bookDetails';
 

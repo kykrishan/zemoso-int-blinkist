@@ -68,6 +68,9 @@
       "last 1 safari version"
     ]
   },
+  "transform": {
+    "\\.js$": "<rootDir>/node_modules/babel-jest"
+  },
   "devDependencies": {
     "@react-theming/storybook-addon": "^1.1.3",
     "@storybook/addon-actions": "^6.4.9",

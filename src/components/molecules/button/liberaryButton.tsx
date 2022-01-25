@@ -24,7 +24,7 @@ const LiberaryButton=(props:LiberaryBtnProp)=>{
     )
 }
 LiberaryButton.defaultProps={
-onclick:()=>console.log("Liberary button clicked"),
+onclick:()=>undefined,
 
 }
 export default LiberaryButton;

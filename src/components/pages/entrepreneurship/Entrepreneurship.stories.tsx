@@ -1,5 +1,5 @@
-import Entrepreneurship from "./entrepreneurship";
-import { ThemeProvider } from "@emotion/react";
+import Entrepreneurship from "./Entrepreneurship";
+import React from "react";
 
 export default{
     title:'page/Entrepreneur',
