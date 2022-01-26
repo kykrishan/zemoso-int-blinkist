@@ -31,6 +31,7 @@ const BookTab=(props:BookTabProps)=>{
       <Grid container spacing={2}>
         
       {cardDetails.map((element)=>{
+        /* istanbul ignore else */
         if(element.finished===false){
         return(
           <Grid key={element.id} item xs={4}>
