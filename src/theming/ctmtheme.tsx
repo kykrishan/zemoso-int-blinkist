@@ -23,7 +23,7 @@ typography:{
       ].join(','),
     subtitle1:{
         fontFamily:"Cera-Pro",
-        fontWeight:700,
+        fontWeight:600,
         lineHeight:'22.63px',
         fontSize:18,
         textAlign:'left'
@@ -36,11 +36,11 @@ color:'#6D787E'
     },
     h1:{
         fontSize:'36px',
-        fontWeight:'700'
+        fontWeight:'600'
     },
     body1:{
 textAlign:"left",
-
+fontWeight:'600'
     },  
     body2:{
         color:'#6D787E',
