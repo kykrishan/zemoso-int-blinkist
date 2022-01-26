@@ -7,6 +7,6 @@ import BookDetails from "./bookDetails";
 
 it("Is bookdetails is visible",async()=>{
     render(<BookDetails></BookDetails>);
-    const card=screen.getByAltText(/Get the key idea from guptil/i);
+    const card=screen.findByAltText(/Get the key/i);
     expect(card).toBeInTheDocument;
 });

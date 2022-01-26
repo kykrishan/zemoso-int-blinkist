@@ -9,10 +9,7 @@ palette:{
 },
 typography:{
     fontFamily: [
-        'Cera Pro',
-        '-apple-system',
-        'BlinkMacSystemFont',
-        '"Segoe UI"',
+        'Segoe UI',
         'Roboto',
         '"Helvetica Neue"',
         'Arial',
